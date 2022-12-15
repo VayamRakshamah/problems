@@ -1,5 +1,15 @@
 package com.practice.tree;
 
+//You are given a binary tree represented by root A.
+//
+//Assume a BST is defined as follows:
+//
+//1) The left subtree of a node contains only nodes with keys less than the node's key.
+//
+//2) The right subtree of a node contains only nodes with keys greater than the node's key.
+//
+//3) Both the left and right subtrees must also be binary search trees.
+
 public class ValidBST {
 
     public class TreeNode {
@@ -13,9 +23,9 @@ public class ValidBST {
             right = null;
         }
     }
-    public int isValidBST(TreeNode A) {
-        boolean val = isBST(A,Integer.MIN_VALUE,Integer.MAX_VALUE);
-        if(val==true){
+    public int isValidBST(TreeNode root) {
+        boolean val = isBST(root,Integer.MIN_VALUE,Integer.MAX_VALUE);
+        if(val){
             return 1;
         }
         else{
