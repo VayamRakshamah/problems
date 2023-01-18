@@ -1,7 +1,7 @@
 package com.practice.intermediate.arrays.interviewProbs;
 
 //You are given an array A consisting of heights of Christmas trees and an array B of the same size consisting of the cost
-// of each of the trees (Bi is the cost of tree Ai, where 1 ≤ i ≤ size(A)),
+// of each of the trees (Bi is the cost of tree Ai, where 1 ≤ row ≤ size(A)),
 // and you are supposed to choose 3 trees (let's say, indices p, q, and r), such that Ap < Aq < Ar, where p < q < r.
 //The cost of these trees is Bp + Bq + Br.
 //
