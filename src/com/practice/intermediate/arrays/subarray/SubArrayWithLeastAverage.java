@@ -1,5 +1,7 @@
 package com.practice.intermediate.arrays.subarray;
 
+//Given an array of size N, find the subarray of size K with the least average.
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
