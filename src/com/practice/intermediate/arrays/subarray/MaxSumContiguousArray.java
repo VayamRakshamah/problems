@@ -1,6 +1,7 @@
 package com.practice.intermediate.arrays.subarray;
 
-import java.util.ArrayList;
+//Find the contiguous non-empty subarray within an array, A of length N, with the largest sum.
+
 import java.util.Arrays;
 import java.util.List;
 
