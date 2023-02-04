@@ -16,7 +16,7 @@ public class SpecialSubsequencesAG {
                 count_A++;
             }
             else if(A.charAt(i)=='G'){
-                ans+=count_A;
+                ans = (ans+count_A)%((int)Math.pow(10,9)+7);
             }
         }
 
